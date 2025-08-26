@@ -29,7 +29,7 @@ const Sign = () => {
 
     try {
       // const response = await axios.post("http://localhost:3000/api/users/", {
-      const response = await axios.post("https://full-stack-app-backend-rouge.vercel.app/api/users/", {
+      const response = await axios.post("https://back-end-mongoose-nine.vercel.app/api/users/", {
         name: formData.name,
         email: formData.email,
         password: formData.password,
